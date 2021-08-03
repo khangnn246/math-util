@@ -18,8 +18,10 @@ public class MathUtil {
         System.out.println("expected: 6! = 720; actual: " + MathUtil1.getFactorial(6));
         
         System.out.println("expected: 0! = 1; actual: " + MathUtil1.getFactorial(0));
+        //Thêm code sau lần đầu tiên làm chuyện ấy 4h38PM 3/08/2021
+        System.out.println("expected: 1! = 1; actual: " + MathUtil1.getFactorial(1));
         
-        
+        System.out.println("expected: 3! = 6; actual: " + MathUtil1.getFactorial(3));
         //MathUtil1.getFactorial(-5); Ném ngoại lệ thật rồi , ai biểu đưa cà chớn chi 
         //kĩ thuật kiểm thử phần mềm : ước lượng xem giá trị trả về của hàm là gì 
         //mày //hàm //ai đó viết khi chạy thực tế là mấy - actual , giả sử 120
